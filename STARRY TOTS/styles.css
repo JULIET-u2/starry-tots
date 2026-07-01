@@ -1,0 +1,89 @@
+/* Custom CSS */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+}
+
+.hero-section {
+    background: url(images/pexels-diego-severino-castro-silva-3824727-16322566.jpg) no-repeat center center/cover;
+    height: 450px;
+    color: rgb(139, 139, 45);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section h1 {
+    font-size: 8.....rem;
+    font-weight: bold;
+}
+
+.product-card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+}
+
+.product-img {
+    height: 130px;
+    object-fit: cover;
+}
+
+.product-price {
+    color: #f57c00;
+    font-weight: bold;
+}
+
+.cart-button {
+    background-color: #f57c00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.cart-button:hover {
+    background-color: #e65100;
+}
+
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+/* Header Section */
+header {
+    background-color: rgb(178, 205, 231);
+    padding: 10px 0;
+}
+
+header .navbar-brand img {
+    max-width: 100%;
+    height: auto;
+}
+
+header .form-control {
+    width: 100%;
+    border-radius: 20px;
+}
+
+header .btn {
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+H6{
+    font-size: 60PX;
+    text-align: center;
+    background-color: #12e7c4;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 15px; 
+}
+
